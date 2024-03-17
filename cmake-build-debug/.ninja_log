@@ -1,0 +1,14 @@
+# ninja log v5
+6382	7205	1710529791652272096	untitled75	f41e33927d05c68b
+7	71	1710613386164523639	/Users/local.user/CLionProjects/untitled75/cmake-build-debug/untitled75_autogen/timestamp	40e235812400434c
+7	71	1710613386164523639	/Users/local.user/CLionProjects/untitled75/cmake-build-debug/untitled75_autogen/mocs_compilation.cpp	40e235812400434c
+7	71	1710613386164523639	untitled75_autogen/mocs_compilation.cpp	40e235812400434c
+7	71	1710613386164523639	untitled75_autogen/timestamp	40e235812400434c
+1	1227	1710708628810280429	build.ninja	1146cc2a1d39b654
+3	587	1710708675556065746	Tic-Tac-Toe1_autogen/timestamp	4627f42d3c13edd1
+3	587	1710708675556065746	Tic-Tac-Toe1_autogen/mocs_compilation.cpp	4627f42d3c13edd1
+3	587	1710708675556065746	/Users/local.user/CLionProjects/Tic-Tac-Toe1/cmake-build-debug/Tic-Tac-Toe1_autogen/timestamp	4627f42d3c13edd1
+3	587	1710708675556065746	/Users/local.user/CLionProjects/Tic-Tac-Toe1/cmake-build-debug/Tic-Tac-Toe1_autogen/mocs_compilation.cpp	4627f42d3c13edd1
+587	755	1710708675740506244	CMakeFiles/Tic-Tac-Toe1.dir/Tic-Tac-Toe1_autogen/mocs_compilation.cpp.o	e424a5bddc9949f7
+587	5171	1710708680137374094	CMakeFiles/Tic-Tac-Toe1.dir/main.cpp.o	95a55b77a73de90b
+5176	5912	1710708680889709832	Tic-Tac-Toe1	48cd8f739c0f9776

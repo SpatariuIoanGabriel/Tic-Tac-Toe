@@ -1,0 +1,5 @@
+/Users/local.user/CLionProjects/Tic-Tac-Toe1/cmake-build-debug/CMakeFiles/Tic-Tac-Toe1.dir
+/Users/local.user/CLionProjects/Tic-Tac-Toe1/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/local.user/CLionProjects/Tic-Tac-Toe1/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/local.user/CLionProjects/Tic-Tac-Toe1/cmake-build-debug/CMakeFiles/Tic-Tac-Toe1_autogen_timestamp_deps.dir
+/Users/local.user/CLionProjects/Tic-Tac-Toe1/cmake-build-debug/CMakeFiles/Tic-Tac-Toe1_autogen.dir
