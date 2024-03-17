@@ -18,7 +18,7 @@ private slots:
 
 private:
     QPushButton *buttons[3][3];
-    bool playerTurn = true; // true for X's turn, false for O's turn
+    bool playerTurn = true;
 
     bool checkWin();
     void resetGame();
@@ -29,12 +29,12 @@ private:
 TicTacToe::TicTacToe(QWidget *parent) : QWidget(parent) {
     setWindowTitle("Tic Tac Toe");
     QGridLayout *gridLayout = new QGridLayout(this);
-    gridLayout->setSpacing(1); // Adjust the spacing here
+    gridLayout->setSpacing(1);
 
     for (int row = 0; row < 3; ++row) {
         for (int col = 0; col < 3; ++col) {
             QPushButton *button = new QPushButton();
-            button->setFont(QFont("Arial", 24)); // Initial font size, will be adjusted dynamically
+            button->setFont(QFont("Arial", 24));
             button->setSizePolicy(QSizePolicy::Expanding, QSizePolicy::Expanding);
             connect(button, &QPushButton::clicked, this, &TicTacToe::onButtonClicked);
             gridLayout->addWidget(button, row, col);
@@ -51,7 +51,7 @@ void TicTacToe::resizeEvent(QResizeEvent *event) {
 }
 
 void TicTacToe::updateButtonFonts() {
-    int side = qMin(width(), height()) / 10; // Calculate font size based on window size
+    int side = qMin(width(), height()) / 10;
     QFont font("Arial", side, QFont::Bold);
     for (int row = 0; row < 3; ++row) {
         for (int col = 0; col < 3; ++col) {
@@ -90,7 +90,6 @@ void TicTacToe::onButtonClicked() {
 
 
 bool TicTacToe::checkWin() {
-    // Horizontal, vertical, and diagonal check
     for (int i = 0; i < 3; ++i) {
         if (!buttons[i][0]->text().isEmpty() &&
             buttons[i][0]->text() == buttons[i][1]->text() &&
@@ -133,7 +132,7 @@ int main(int argc, char *argv[]) {
     QApplication app(argc, argv);
 
     TicTacToe window;
-    window.showMaximized(); // Start maximized
+    window.showMaximized();
 
     return app.exec();
 }
